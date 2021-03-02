@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cp batteryfull.sh ~/.config/autostart-scripts/batteryfull.sh
+sh ~/.config/autostart-scripts/batteryfull.sh &
+echo "Installation complete"

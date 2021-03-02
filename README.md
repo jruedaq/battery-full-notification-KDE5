@@ -1,28 +1,29 @@
 # Battery Full Notification
-A simple script to display a notification when your battery is full in Ubuntu/Linux Mint
 
-![preview](http://i.imgur.com/rVGMBK8.png)
+A simple script to display a notification when your battery is full in Kubuntu/KDE Neon/Debian/Parrot OS KDE
+
+![preview](https://i.imgur.com/kxpQWfb.png)
 
 ## Installation :
 
 1. Install `acpi` package :
 
-        sudo apt-get install acpi
-
+```shell
+sudo apt-get install acpi
+```
 2. Clone this repo :
-        
-        git clone https://github.com/hg8/battery-full-notification.git
-        
-3. Add the `batteryfull.sh` script as a startup application (Open Dash and search for `Startup Applications`) :
-
-    ![startup application](http://i.imgur.com/pWcq9TW.png)
-
-4. Done!
-
-
-----
-
-<sup>Battery icon credit to [DreamStale](http://www.dreamstale.com/free-download-40-battery-vector-icons/).</sup>
+```shell
+git clone https://github.com/jruedaq/battery-full-notification-KDE5.git
+```
+3. Join in to `battery-full-notification-KDE5` folder:
+```shell
+cd battery-full-notification-KDE5
+```
+4. run `install` file:
+```shell
+./install
+```
+5. Done!
 
 
     
