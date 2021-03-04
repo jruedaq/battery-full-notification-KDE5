@@ -9,5 +9,5 @@ while true; do
       kdialog --title "Backup Complete" --sorry "Battery full.\nLevel: ${battery_percent}% "
     fi
   fi
-  sleep 300 # (5 minutes)
+  sleep 180 # (3 minutes)
 done
